@@ -1,24 +1,35 @@
-# README
+# ChatApp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+โปรเจกต์นี้เป็นระบบห้องแชทที่พัฒนาโดยใช้ **Ruby on Rails** รองรับการสร้างห้องสนทนาและการส่งข้อความแบบเรียลไทม์
 
-Things you may want to cover:
+## Test Account
+* Email: natcha@natcha.com
+* Password: 1234
+<br>
+หรือสามารถ register ใหม่ได้เลยค่ะ แต่หาก register ใหม่แล้ว ต้อง log-in อีกรอบด้วยค่ะ
+<br>
 
-* Ruby version
+## Installation
+1. **Clone Repository**
+   ```sh
+   git clone https://github.com/aaonykj21/chatapp.git
+   cd chatapp_2
+   ```
 
-* System dependencies
+2. **Install Dependencies**
+   ```sh
+   bundle install
+   ```
 
-* Configuration
+3. **Setup Database**
+   ```sh
+   rails db:create
+   rails db:migrate
+   ```
 
-* Database creation
+4. **Seed Data(Optional)**
+   ```sh
+   rails server
+   ```
+   จากนั้นเปิด **http://localhost:3000** ในเบราว์เซอร์เพื่อใช้งาน
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
