@@ -31,5 +31,9 @@
    ```sh
    rails server
    ```
-   จากนั้นเปิด **http://localhost:3000** ในเบราว์เซอร์เพื่อใช้งาน
+5. **Open Server**
+   ```sh
+   http://localhost:3000
+   ```
+   
 
