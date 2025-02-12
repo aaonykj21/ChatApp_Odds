@@ -13,7 +13,7 @@
 1. **Clone Repository**
    ```sh
    git clone https://github.com/aaonykj21/chatapp.git
-   cd chatapp_2
+   cd chatapp
    ```
 
 2. **Install Dependencies**
