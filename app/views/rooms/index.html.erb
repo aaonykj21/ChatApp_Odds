@@ -19,9 +19,8 @@
     </div>
   </div>
   
+  
   <div id="messages-container">
-    <div id="messages-header">
-    </div>
     <%= turbo_frame_tag 'room-messages' do %>
       <div id="message-list">
         <% @messages.each do |message| %>

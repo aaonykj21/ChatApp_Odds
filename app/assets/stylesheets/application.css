@@ -591,9 +591,14 @@ box-shadow: none;
   margin-left: 110px;
 }
 
-.ConRoom{
-  text-align: center;
+.ConRoom {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* ทำให้แต่ละห้องมีขนาดอย่างน้อย 200px และเต็มพื้นที่ */
+  gap: 20px; /* ระยะห่างระหว่างแต่ละห้อง */
   margin-top: 10px;
   margin-bottom: 10px;
-  gap: 20px;
+  text-align: center;
 }
+
+
+
