@@ -12,7 +12,7 @@
 ## Installation
 1. **Clone Repository**
    ```sh
-   git clone https://github.com/aaonykj21/chatapp.git
+   git clone https://github.com/aaonykj21/ChatApp_Odds.git
    cd chatapp
    ```
 
